@@ -1,0 +1,60 @@
+---
+sidebar_position: 1
+---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+
+
+# Introduction to PaperCloud 🚀
+
+Let's explore **PaperCloud OpenSource**.
+
+## Getting Started
+
+With PaperCloud setup infra  open-source projects in just a few clicks.
+
+### Requirements
+    - Azure or AWS Subscription
+    - OpenToFu or Terraform
+
+We recommend you have using [OpenToFu](https://opentofu.org/docs/intro/install/standalone/) or [Terraform](https://developer.hashicorp.com/terraform/install) installed on your machine.
+### OpenToFu Installation
+<Tabs>
+    <TabItem value="install_sh" label="Linux/MacOS/BSD/Unix (POSIX)" default>
+        ```
+        # Download the installer script:
+        curl --proto '=https' --tlsv1.2 -fsSL https://get.opentofu.org/install-opentofu.sh -o install-opentofu.sh
+        # Alternatively: wget --secure-protocol=TLSv1_2 --https-only https://get.opentofu.org/install-opentofu.sh -O install-opentofu.sh
+
+        # Grant execution permissions:
+        chmod +x install-opentofu.sh
+
+        # Please inspect the downloaded script at this point.
+
+        # Run the installer:
+        ./install-opentofu.sh --install-method standalone
+
+        # Remove the installer:
+        rm -f install-opentofu.sh
+        ```
+    </TabItem>
+    <TabItem value="install_win" label="Windows (PowerShell)">
+        ```
+        # Download the installer script:
+        Invoke-WebRequest -outfile "install-opentofu.ps1" -uri "https://get.opentofu.org/install-opentofu.ps1"
+
+        # Please inspect the downloaded script at this point.
+
+        # Run the installer:
+        & .\install-opentofu.ps1 -installMethod standalone
+
+        # Remove the installer:
+        Remove-Item install-opentofu.ps1
+        ```
+    </TabItem>
+</Tabs>
+
+### Terraform Installation
+- Refer [Terraform Installation](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli) for installation steps.
