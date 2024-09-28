@@ -39,6 +39,7 @@ const config: Config = {
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/papercloudtech/docs/edit/main/',
+          routeBasePath: '/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -63,6 +64,8 @@ const config: Config = {
           position: 'left',
           label: 'Docs',
         },
+
+
         {
           href: 'https://github.com/papercloudtech/',
           label: 'GitHub',
@@ -78,11 +81,11 @@ const config: Config = {
           items: [
             {
               label: 'Docs',
-              to: '/docs/intro',
+              to: '/intro',
             },
             {
               label: 'Tutorials',
-              to: '/docs/intro',
+              to: '/tutorials',
             },
 
           ],
