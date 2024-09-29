@@ -1,0 +1,4 @@
+wireguard:
+  label: WireGuard
+  permalink: /wireguard
+  description: WireGuard is a opensource vpn
